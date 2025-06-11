@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+<!-- CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="styles.css"/>
+<!-- Button icons -->
+    <script src="https://kit.fontawesome.com/93010e2174.js" crossorigin="anonymous"></script>
+</head>
+<body class="container text-center mt-4">
+    <h1>To-Do List</h1>
+<!-- FORM -->
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Add a new task" id="newTask" required>  
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <button class="btn btn-outline-primary form-control" id="addTask" type="submit">Add</button>   
+                    </div>
+                </div>
+            </div>
+
+<!-- TODO ITEMS LIST -->   
+<ul class="list-group" id="todoList">
+    
+  </ul>
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

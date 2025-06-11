@@ -1,0 +1,19 @@
+{
+  "name": "week12",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server db/db.json --port 4000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1",
+    "json-server": "^1.0.0-beta.3"
+  }
+}

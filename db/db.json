@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "id": "896a",
+      "text": "Clean room",
+      "completed": false
+    },
+    {
+      "id": "af3d",
+      "text": "Finish coding assignment - week 12",
+      "completed": true
+    },
+    {
+      "id": "4c0d",
+      "text": "Do laundry",
+      "completed": false
+    }
+  ]
+}
